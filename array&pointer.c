@@ -6,14 +6,10 @@ int main(){
 		for(j=0;j<3;j++)
 		{
 			p[i][j]=&a[i][j];
-			scanf("%d",&a[i][j]);
-			if(i==j){
-				sum=sum + a[i][j];
-			}
 		}
 	}
 	
-/*	for(i=0;i<3;i++)
+	for(i=0;i<3;i++)
 	{
 		for(j=0;j<3;j++)
 		{
@@ -23,7 +19,6 @@ int main(){
 			}
 		}
 	}
-*/	
     printf("\n");
 	for(i=0;i<3;i++)
 	{
